@@ -1,0 +1,37 @@
+{
+  "grammars": [
+    {
+      "name": "surrealql",
+      "camelcase": "SurrealQL",
+      "scope": "source.surrealql",
+      "file-types": [
+        ".surrealql",
+        ".surql"
+      ],
+      "injection-regex": "^surrealql$"
+    }
+  ],
+  "metadata": {
+    "version": "0.1.0",
+    "license": "MIT",
+    "description": "SurrealQL grammar for tree-sitter",
+    "authors": [
+      {
+        "name": "Brage Ingebrigtsen",
+        "email": "brageringebrigtsen@gmail.com"
+      }
+    ],
+    "links": {
+      "repository": "github.com:Skyppex/tree-sitter-surrealdb.git"
+    }
+  },
+  "bindings": {
+    "c": true,
+    "go": true,
+    "node": true,
+    "python": true,
+    "rust": true,
+    "swift": true
+  }
+}
+
